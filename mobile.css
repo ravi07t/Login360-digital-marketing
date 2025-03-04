@@ -41,6 +41,7 @@
         position: relative;
         display: block;
         background-image: url(./images/black-wavy-lines-abstract-background\ 2.png);
+        background-repeat: no-repeat;
     }
     .home-content-mobile {
         width: 285px;
