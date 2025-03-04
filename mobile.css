@@ -271,7 +271,7 @@
         justify-content: flex-start;
     }
     .why-login-360-containe-icon1 {
-        width: 200px;
+        width: 150px;
         height: 150px;
     }
 
@@ -293,7 +293,7 @@
     }
 
     .why-login-360-container-text{
-        font-size: 19px;
+        font-size: 15px;
     }
     .why-login-360-containe-image5{
         width: 140px;
@@ -334,10 +334,16 @@
         position: relative;
         top: 200px;
     }
+    .faq-heading-container {
+        width: 100%;
+    }
     .faq-heading-text-container {
-        font-size: 27px;
-        left: -25vw;
+        font-size: 21px;
+        left: 0px;
         top: 2vh;
+        right: 0px;
+        text-align: center;
+        width: 100%;
     }
 
     .faq-heading-img-container {
