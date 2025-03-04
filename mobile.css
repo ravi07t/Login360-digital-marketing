@@ -35,7 +35,7 @@
     /* ---------Home section for mobile--------- */
     .home-container-mobile {
         width: 100%;
-        height: 155vh;
+        height: 115vh;
         padding: 10px 10px 10px 0px;
         font-family: var(--fontpoppins);
         position: relative;
@@ -65,10 +65,6 @@
         background-image: url(./images/black-wavy-lines-abstract-background\ 2.png);
         background-repeat: no-repeat;
     }
-   
-
-}
-@media (max-width: 560px) {
         
 
     /* --------------- inverted scroll container ------------------------ */
@@ -255,7 +251,9 @@
         height: fit-content;
         position: absolute;
     }
-
+    .sub-why-login-360-left-container-text2-scroll{
+        height: 34vh;
+    }
 
     .sub-why-login-360-left-container-text1{
         text-align: center;  
