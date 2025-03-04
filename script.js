@@ -56,9 +56,23 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
-
-
 // ------------------------------------------------------------------------
+//  --------------------------------Why choose login360------------------------------
+document.addEventListener("DOMContentLoaded", function () {
+    const texts = document.querySelectorAll(".sub-why-login-360-left-container-text2");
+    let index = 0;
 
+    function showNextText() {
+        texts.forEach(text => text.classList.remove("active")); // Hide all
+        texts[index].classList.add("active"); // Show current text
+
+        index = (index + 1) % texts.length; // Loop back after the last text
+
+        setTimeout(showNextText, 2000); // Change text every 2 seconds
+    }
+
+    showNextText();
+});
+// --------------------------------------------------------------------------
 
 

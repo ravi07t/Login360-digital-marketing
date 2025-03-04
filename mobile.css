@@ -196,7 +196,7 @@
 
     .review-container {
         position: relative;
-        top: 225px;
+        top: 100px;
     }
     .review-heading-img-container{
         width: 100%;
@@ -241,6 +241,66 @@
 
     /* ----------------------------------------------------------------- */
 
+    /* -----------------------------Why choose login360------------------------------------ */
+    .why-login-360-container {
+        height: 700px;
+        position: relative;
+        top: 200px;
+    }
+    .sub-why-login-360-container{
+        flex-direction: column;
+        width: 100%;
+        height: fit-content;
+        position: absolute;
+    }
+
+
+    .sub-why-login-360-left-container-text1{
+        text-align: center;  
+        font-size: 38.81px;
+    }
+
+    .sub-why-login-360-left-container-text2{
+      
+        display: flex;
+        width: 366px;
+        height: 193px;
+        align-items: center;
+        flex-shrink: 0;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .why-login-360-containe-icon1 {
+        width: 200px;
+        height: 150px;
+    }
+
+    .end-to-end-text{
+        font-size: 48px;
+        width: 100%;
+    }
+
+    .placement-supports-text{
+        font-size: 42px;
+        width: 100%;
+    }
+    .sub-why-login-360-right-container-img {
+        gap: 20px;
+        padding: 30px 0px;
+    }
+    .why-login-360-containe-image1{
+        width: 100px;
+    }
+
+    .why-login-360-container-text{
+        font-size: 19px;
+    }
+    .why-login-360-containe-image5{
+        width: 140px;
+        height: 25px;
+    }
+    /* ----------------------------------------------------------- */
+
     /* ----------------------benifits beyond container ---------------- */
 
     .main-learing-list {
@@ -256,9 +316,8 @@
     }
     .sub-learing-text{
         width: 100%;
-        height: 100px;
         font-size: 30px;
-        left: 0.5%;
+        top: 10px;
     }
     .main-sub-learing-img1{
         width: 197.799px;
