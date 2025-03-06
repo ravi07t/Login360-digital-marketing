@@ -675,7 +675,223 @@ input[type="radio"] {
     flex-wrap: wrap;
 }
 /* ----------------------------------------------------------------- */
+/* <!-- ----------------------Claim your offer section-------------------------- --> */
 
+.offer-page-container{
+    background-color: rgba(0, 0, 0, 2);
+    position: relative;
+    height: 95vh;
+    font-family: var(--fontpoppins);
+}
+
+.offer-page-background-img-container{
+    width: 100%;
+    background-size: cover;
+    height: 95vh;
+}
+
+.offer-page-content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 4vh;
+    left: 0;
+    right: 0;
+}
+
+.offer-page-content-heading-container{
+    color: black;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(180deg, #F7F7F7 0%, #C4C2C2 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.offer-page-content-old-container{
+    position: relative;
+}
+
+.offer-page-content-old-price-container{
+    text-align: center;
+    font-size: 97.668px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(180deg, #666 18.28%, #FFF 95.39%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.offer-page-content-old-price-cross-container{
+    position: absolute;
+    top: -45px;
+    left: -4vw;
+}
+
+.offer-page-content-new-price-container{
+    text-shadow: 0px 0px 2px #FF8328;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.1;
+    background: linear-gradient(93deg, #C65A0C 0%, #FF8832 31.87%, #F66C08 50.18%, #FF8B37 65.38%, #C65A0C 108.42%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 138px;
+}
+
+.offer-page-content-new-price-icon-container{
+    font-family: "Poltawski Nowy";
+    font-weight: 900;
+}
+
+.offer-page-lastline-content-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0px 50px;
+    color: #F7F7F7;
+    position: absolute;
+    bottom: 2vh;
+    font-size: 28px;
+}
+
+.offer-page-lastline-top-mobile-response-content-container,
+.offer-page-lastline-bottom-mobile-response-content-container{
+    display: none;
+}
+
+.offer-page-register-button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.offer-page-register-button{
+    display: flex;
+    width: 284px;
+    height: 50px;
+    padding: 12px 51px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border: 1px solid #FF8328;
+    border-radius: 39px;
+    background: linear-gradient(93deg, #C65A0C 0%, #FF7A19 31.87%, #DA6510 65.38%, #C65A0C 108.42%);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.58) inset;
+    color: #FFF;
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.61);
+    font-size: 22px;
+    font-weight: 600;
+    position: absolute;
+    bottom: -25px;
+    
+}
+/* ------------------------------------------------------------------ */
+
+/* ----------------------------Tools section----------------------------------- */
+.tool_you_learn_main_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 30px 0;
+}
+
+.tool_you_learn_sub_container{
+    position: relative;
+}
+
+.tool_you_learn_heading_img{
+    opacity: 1;
+    background: linear-gradient(176deg, rgba(0, 0, 0, 0.60) -10.69%, rgba(102, 102, 102, 0.60) 55.13%, rgba(0, 0, 0, 0.60) 103.28%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    mix-blend-mode: difference;
+    width: 100%;
+}
+
+.tool_you_learn_heading_text{
+    text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
+    font-family: "Poppins";
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(180deg, #000 18.28%, #666 62.82%, #000 95.39%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 5vh;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Web Layout Container */
+.tool_you_learn_container-web {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    max-width: 1200px; /* Prevents stretching on larger screens */
+}
+
+/* Rows with images */
+.tool_you_learn_row {
+    display: flex;
+    gap: 30px; /* Adjusted gap for even spacing */
+    justify-content: center;
+    flex-wrap: wrap; /* Ensures responsiveness */
+    width: 100%;
+}
+
+/* Last row - Single Image Centered */
+.tool_you_learn_last {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Images */
+.tool_you_learn_img {
+    object-fit: contain;
+    background-color: #ffffff;
+    width: 143px;
+    height: 143px;
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.20);
+    border-radius: 8px;
+    padding: 10px 11px;
+}
+
+/* Remove box-shadow from Main Image */
+.tool_you_learn_main_img {
+    box-shadow: none;
+    background-color: #f4f4f4;
+}
+
+/* Hide Mobile Layout */
+.tool_you_learn_container-mobile {
+    display: none;
+    
+}
+/* --------------------------------------------------------------- */
 /* -------------------- benifits beyond container------------------ */
 
 .main-learing-list {
@@ -701,7 +917,7 @@ input[type="radio"] {
 
 .sub-learing-text {
     position: absolute;
-    top: 0px;
+    top: 20px;
     left: 0px;
     right: 0px;
     text-align: center;

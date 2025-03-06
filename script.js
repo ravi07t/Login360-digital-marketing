@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // ---------------------------------form dialog section---------------------------
 document.addEventListener("DOMContentLoaded", function () {
     const modal = document.getElementById("popupContainer");
-    const openModalBtns = document.querySelectorAll("#showPopup, #open-modal, #registerBtnForm, #stickyBtnOffer");
+    const openModalBtns = document.querySelectorAll("#showPopup, #open-modal, #registerBtnForm, #stickyBtnOffer, #claimOfferBtn");
     const closeModal = document.querySelector(".close-popup");
 
     // Open modal when either button is clicked
